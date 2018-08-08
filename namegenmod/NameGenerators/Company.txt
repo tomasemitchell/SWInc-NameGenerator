@@ -34,6 +34,10 @@ Bull
 Buffalo
 Elk
 Moose
+Montezuma
+Face
+Head
+Heart
 Violin
 Trumpet
 Mercury
@@ -54,10 +58,6 @@ Hades
 Enki
 Vishnu
 Hannuman
-Montezuma
-Face
-Head
-Heart
 Soul
 Rapid
 Raging
@@ -108,6 +108,10 @@ Los
 Net
 Ex
 E-
+Techno
+Intra
+Via
+Tele
 -base_compound(gen_company,gen_company1,gen_company2,loc_company,stop,stop1)
 soft
 ware
@@ -216,6 +220,13 @@ Hampshire
 Bakerson
 Cobbler
 Abstract
+Spectre
+Specter
+Wraith
+Phantom
+Opal
+Tyrant
+Kingdom
 -stop1(stop)
 -stop2(stop)
 -stop3(stop)
