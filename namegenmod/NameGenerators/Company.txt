@@ -1,6 +1,6 @@
 [REPLACE]
 -start(base)
--base(compound,compound1,compound2,gen_company1,gen_company,fr_company,de_company,eng_company,stop)
+-base(compound,compound1,compound2,gen_company,gen_company1,gen_company2,fr_company,de_company,eng_company,stop)
 Pear
 Apple
 Orange
@@ -88,7 +88,7 @@ Flash
 Coffee
 -compound1(compound)
 -compound2(compound)
--compound(gen_company,de_company,fr_company,eng_company,stop,stop1)
+-compound(gen_company,gen_company1,gen_company2,de_company,fr_company,eng_company,stop,stop1)
 soft
 sec
 tech
@@ -96,8 +96,9 @@ book
 gram
 sys
 ware
--gen_company1
--gen_company(eng_company,de_company,fr_company,stop,stop1,stop2)
+-gen_company1(gen_company)
+-gen_company2(gen_company)
+-gen_company(eng_company,de_company,fr_company,stop,stop1,stop2,stop3)
  Corp
  Industries
  Corporation
