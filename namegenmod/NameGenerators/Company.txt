@@ -1,6 +1,6 @@
 [REPLACE]
--start(base)
--base(compound,compound1,compound2,gen_company,gen_company1,gen_company2,fr_company,de_company,eng_company,stop)
+-start(base,pre_compound)
+-base(compound,compound1,gen_company,gen_company1,gen_company2,loc_company,stop)
 Pear
 Apple
 Orange
@@ -8,16 +8,6 @@ Passionfruit
 Pineapple
 Lemon
 Lime
-Micro
-Macro
-Giga
-Mega
-Kilo
-Nano
-Milli
-Centi
-Tera
-Peta
 Decade
 Century
 Blue
@@ -88,7 +78,7 @@ Flash
 Coffee
 -compound1(compound)
 -compound2(compound)
--compound(gen_company,gen_company1,gen_company2,de_company,fr_company,eng_company,stop,stop1)
+-compound(gen_company,gen_company1,loc_company,stop,stop1)
 soft
 sec
 tech
@@ -96,32 +86,136 @@ book
 gram
 sys
 ware
+-pre_compound(base_compound)
+Micro
+Nano
+Centi
+Mega
+Kila
+Kilo
+Giga
+Tera
+Tetra
+Int
+Insta
+Inter
+Intelli
+Integri
+Mini
+Cis
+Chi
+Los
+Net
+Ex
+E-
+-base_compound(gen_company,gen_company1,gen_company2,loc_company,stop,stop1)
+soft
+ware
+cross
+sys
+systems
+comms
+comms
+conn
+connect
+tech
+spec
+sec
+space
 -gen_company1(gen_company)
 -gen_company2(gen_company)
--gen_company(eng_company,de_company,fr_company,stop,stop1,stop2,stop3)
- Corp
- Industries
+-gen_company(loc_company,stop,stop1,stop2)
  Corporation
- Group
+ Corporations
+ Corp
  Technologies
- Incorporated
+ Group
+ Industries
  Studios
- Systems
--eng_company(stop)
+ Conglomerate
+ Ventures
+ Co.
+ Company
+ Holdings
+ Enterprises
+ Services
+-loc_company(stop)
  LLC
  Ltd.
  plc
- LLP
--de_company(stop)
  AG
  GmbH
  KG
  UG
--fr_company(stop)
  S.A.
  S.A.R.L.
  SAS
  SCA
+ SpA
+ Inc.
+-singleword(gen_company,gen_company1,loc_company,stop2)
+Apple
+Pear
+Orange
+Cherry
+Lime
+Tiger
+Bear
+Wolf
+Dolphin
+Koala
+Knight
+Centurion
+Samurai
+Gladiator
+Highlander
+Berserker
+Viking
+Dauphin
+Imperator
+Magician
+Magic
+Statesman
+Caesar
+Augustus
+Zeus
+Poseidon
+Jupiter
+Athena
+Mars
+Apollo
+Berber
+Velodrome
+Bismarck
+Alphabet
+Numeral
+Legionary
+Automobile
+Automaton
+Grace
+Mardi Gras
+Piston
+Amethyst
+Emerald
+Gemstone
+Ruby
+Enki
+Óska
+Not Evil
+Silicone
+Carbon
+Gravity
+Momentum
+Ohio
+Berkshire
+Normandie
+Friesland
+Sachsen
+Friulia
+Hampshire
+Bakerson
+Cobbler
+Abstract
 -stop1(stop)
 -stop2(stop)
 -stop3(stop)

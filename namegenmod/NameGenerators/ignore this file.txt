@@ -1,0 +1,69 @@
+-start(base)
+-base(pre_compound)
+-pre_compound(base_compound)
+Micro
+Nano
+Centi
+Mega
+Kila
+Kilo
+Giga
+Tera
+Tetra
+Int
+Insta
+Inter
+Intelli
+Integri
+Mini
+Cis
+Chi
+Los
+Net
+Ex
+E-
+-base_compound(gen_company,gen_company1,gen_company2,loc_company,stop,stop1)
+soft
+ware
+cross
+sys
+systems
+comms
+comms
+conn
+connect
+tech
+spec
+sec
+space
+-gen_company1(gen_company)
+-gen_company2(gen_company)
+-gen_company(loc_company,stop,stop1,stop2)
+ Corporation
+ Corporations
+ Incorported
+ Inc.
+ Technologies
+ Group
+ Industries
+ Studios
+ Conglomerate
+ Ventures
+ Co.
+ Company
+ Holdings
+-loc_company(stop)
+ LLC
+ Ltd.
+ plc
+ AG
+ GmbH
+ KG
+ UG
+ S.A.
+ S.A.R.L.
+ SAS
+ SCA
+-stop1(stop)
+-stop2(stop)
+-end(stop)
