@@ -1,0 +1,127 @@
+[REPLACE]
+-start(base)
+-base(compound,compound1,compound2,gen_company1,gen_company,fr_company,de_company,eng_company,stop)
+Pear
+Apple
+Orange
+Passionfruit
+Pineapple
+Lemon
+Lime
+Micro
+Macro
+Giga
+Mega
+Kilo
+Nano
+Milli
+Centi
+Tera
+Peta
+Decade
+Century
+Blue
+Red
+Green
+Black
+Red
+Yellow
+Orange
+Purple
+Jaguar
+Lion
+Tiger
+Panda
+Goat
+Koala
+Sloth
+Bear
+Rhino
+Zebra
+Giraffe
+Antelope
+Bull
+Buffalo
+Elk
+Moose
+Violin
+Trumpet
+Mercury
+Venus
+Gaia
+Mars
+Saturn
+Jupiter
+Uranus
+Neptune
+Pluto
+Zeus
+Poseidon
+Athena
+Apollo
+Dionysius
+Hades
+Enki
+Vishnu
+Hannuman
+Montezuma
+Face
+Head
+Heart
+Soul
+Rapid
+Raging
+Dash
+Secure
+Fissure
+Ravine
+Nature
+Electri
+Electric
+Electro
+Insta
+Instant
+Future
+Present
+Omni
+Flash
+Coffee
+-compound1(compound)
+-compound2(compound)
+-compound(gen_company,de_company,fr_company,eng_company,stop,stop1)
+soft
+sec
+tech
+book
+gram
+sys
+ware
+-gen_company1
+-gen_company(eng_company,de_company,fr_company,stop,stop1,stop2)
+ Corp
+ Industries
+ Corporation
+ Group
+ Technologies
+ Incorporated
+ Studios
+ Systems
+-eng_company(stop)
+ LLC
+ Ltd.
+ plc
+ LLP
+-de_company(stop)
+ AG
+ GmbH
+ KG
+ UG
+-fr_company(stop)
+ S.A.
+ S.A.R.L.
+ SAS
+ SCA
+-stop1(stop)
+-stop2(stop)
+-stop3(stop)
+-end(stop)
