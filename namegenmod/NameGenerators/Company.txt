@@ -1,5 +1,5 @@
 [REPLACE]
--start(base,pre_compound,pre_compound1,pre_compound2,pre_stringmanteau)
+-start(base,pre_compound,pre_compound1,pre_compound2,pre_stringmanteau,singleword,singleword1,singleword2)
 -base(compound,compound1,gen_company,gen_company1,gen_company2,loc_company,stop)
 Pear
 Apple
@@ -160,6 +160,8 @@ space
  SCA
  SpA
  Inc.
+-singleword1(singleword)
+-singleword2(singleword)
 -singleword(gen_company,gen_company1,loc_company,stop2)
 Apple
 Pear
