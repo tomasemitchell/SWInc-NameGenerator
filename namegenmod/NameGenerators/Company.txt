@@ -1,6 +1,6 @@
 [REPLACE]
--start(base,pre_compound,pre_compound1,pre_compound2,pre_stringmanteau,singleword,singleword1,singleword2)
--base(compound,compound1,gen_company,gen_company1,gen_company2,loc_company,stop)
+-start(pre_compound,pre_compound,pre_compound,pre_compound,pre_stringmanteau,singleword,singleword,singleword,singleword,singleword)
+-base(compound,compound,gen_company,gen_company,gen_company,loc_company,stop)
 Pear
 Apple
 Orange
@@ -76,9 +76,7 @@ Present
 Omni
 Flash
 Coffee
--compound1(compound)
--compound2(compound)
--compound(gen_company,gen_company1,loc_company,stop,stop1)
+-compound(gen_company,gen_company,loc_company,stop,stop)
 soft
 sec
 tech
@@ -86,9 +84,6 @@ book
 gram
 sys
 ware
--pre_compound1(pre_compound)
--pre_compound2(pre_compound)
--pre_compound3(pre_compound)
 -pre_compound(base_compound)
 Micro
 Nano
@@ -115,7 +110,7 @@ Techno
 Intra
 Via
 Tele
--base_compound(gen_company,gen_company1,gen_company2,loc_company,stop,stop1)
+-base_compound(gen_company,gen_company,gen_company,loc_company,stop,stop)
 soft
 ware
 cross
@@ -129,9 +124,7 @@ tech
 spec
 sec
 space
--gen_company1(gen_company)
--gen_company2(gen_company)
--gen_company(loc_company,stop,stop1,stop2)
+-gen_company(loc_company,stop,stop,stop)
  Corporation
  Corporations
  Corp
@@ -160,9 +153,7 @@ space
  SCA
  SpA
  Inc.
--singleword1(singleword)
--singleword2(singleword)
--singleword(gen_company,gen_company1,loc_company,stop2)
+-singleword(gen_company,gen_company,gen_company,gen_company,gen_company,gen_company,loc_company,loc_company,stop,stop,stop,stop,base_compound)
 Apple
 Pear
 Orange
@@ -244,7 +235,7 @@ Energy
 Momentum
 Era
 Static
--suf_stringmanteau(gen_company,gen_company1,gen_company2,loc_company,stop,stop1)
+-suf_stringmanteau(gen_company,gen_company,gen_company,loc_company,stop,stop)
 Link
 Systems
 Communications
@@ -254,7 +245,4 @@ Electric
 Telecom
 Softwares
 Solutions
--stop1(stop)
--stop2(stop)
--stop3(stop)
 -end(stop)
