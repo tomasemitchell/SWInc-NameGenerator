@@ -1,4 +1,4 @@
-[REPLACE]
+﻿[REPLACE]
 -start(pre_compound,pre_compound,pre_compound,pre_compound,pre_compound,pre_compound,pre_stringmanteau,pre_stringmanteau,adjective,adjective,singleword,singleword,singleword,singleword,singleword,singleword,singleword,singleword,singleword,singleword)
 -base(compound,compound,gen_company,gen_company,gen_company,loc_company,stop)
 Pear
@@ -180,6 +180,8 @@ Blanc
 Noir
 Rosso
 Verde
+Pink
+Noisy
 -singleword(gen_company,gen_company,gen_company,gen_company,gen_company,gen_company,loc_company,loc_company,stop,stop,stop,stop,base_compound)
 Apple
 Pear
