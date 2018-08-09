@@ -113,6 +113,8 @@ Tele
 One
 Quick
 Speed
+Infra
+Extra
 -base_compound(gen_company,gen_company,gen_company,loc_company,stop,stop)
 soft
 ware
@@ -152,9 +154,9 @@ space
  UG
  S.A.
  S.A.R.L.
- SAS
- SCA
- SpA
+ S.A.S.
+ S.C.A.
+ S.p.A.
  Inc.
 -adjective(singleword)
 Red
@@ -182,6 +184,10 @@ Rosso
 Verde
 Pink
 Noisy
+Loud
+Quiet
+Happy
+Angry
 -singleword(gen_company,gen_company,gen_company,gen_company,gen_company,gen_company,loc_company,loc_company,stop,stop,stop,stop,base_compound)
 Apple
 Pear
@@ -256,7 +262,6 @@ One
 Two
 Three
 Numeral
-RedGreenBlue
 Romanov
 Intelligent
 Genie
@@ -271,6 +276,21 @@ Mountain
 Everest
 Kilimanjaro
 Fjord
+Ravine
+Crevice
+River
+Barbarian
+Robot
+Android
+Cyborg
+Pine
+Oak
+Night
+Hannuman
+Bear
+Dancer
+Musician
+Singer
 -pre_stringmanteau(suf_stringmanteau)
 Century
 Millenium
@@ -296,6 +316,9 @@ Three
 123
 From
 Major
+Intelligent
+Smart
+Artificial
 -suf_stringmanteau(gen_company,gen_company,gen_company,loc_company,stop,stop)
 Link
 Systems
@@ -307,4 +330,7 @@ Telecom
 Softwares
 Solutions
 Soft
+Designs
+Design
+Infrastructure
 -end(stop)
