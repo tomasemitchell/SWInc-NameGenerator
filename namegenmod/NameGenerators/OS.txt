@@ -1,3 +1,4 @@
+[REPLACE]
 -start(pre_adj,pre_adj,pre_adj,pre_adj,uc_noun,uc_noun,uc_noun)
 -pre_adj(lc_noun)
 Smart
